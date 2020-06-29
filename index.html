@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bedrock Server Manager: Micah Henney</title>
+    </head>
+    <body>
+        <script src="/socket.io/socket.io.js"></script>
+        <script>
+            const socket = io();
+            socket.on('connect', () => {
+                console.log("Connected!");
+            });
+        </script>
+    </body>
+</html>
